@@ -23,7 +23,7 @@ html,body{
     z-index: 33;
     transition: all;
     transition-duration: 4s ;
-    transition: cubic-bezier(0,2.02,.52,1.37);
+    transition: cubic-bezier(0,0.02,.52,1.37);
 }
 .circle-b{
     height: 350px;
@@ -258,4 +258,56 @@ video{
 }
 .card:hover{
     transform: rotate3d(-1,1,0,20deg);
+}
+.green-box{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background:linear-gradient(to left bottom,#039c3d,#95c11e)
+
+}
+.green-box img{
+    height: 60vh;
+    object-fit: cover;
+}
+.green-box h1{
+    flex-basis: 50%;
+    font-size: 2rem;text-align: center;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+#imggg{
+    transform: rotate(180deg);
+}
+
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.page3>p{
+    font-size: 2rem;
+    flex-basis: 45%;
+    text-align: center;
+
+}
+.page3 img{
+    height: 5rem;
+    position: absolute;
+}
+#ghgh{
+    bottom: 200px;
+    right: 200px;
+}
+#hghg{
+    top: 200px;
+    left: 200px;
+    
 }

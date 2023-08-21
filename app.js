@@ -21,3 +21,17 @@ gsap.to(".main",{
         scrub:3
     }
 })
+gsap.from(".about-us,.about",{
+    y:50,
+    opacity:0,
+    duration:1,
+    stagger:0.4,
+    scrollTrigger:{
+        trigger:".about-us",
+        scroller:"body",
+        start:"top 60%",
+        end:"top 45%",
+        scrub:2
+        
+    }
+})
