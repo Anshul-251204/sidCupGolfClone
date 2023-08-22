@@ -35,3 +35,28 @@ gsap.from(".about-us,.about",{
         
     }
 })
+
+gsap.from("#hghg",{
+    x: -60,
+    y:-60,
+    duration:0.5,
+    scrollTrigger:{
+        trigger: "#hghg",
+        scroller:"body",
+        start:"top 50%",
+        end:"top 45%",
+        scrub:1
+    }
+})
+gsap.to("#ghgh",{
+    x: -60,
+    y: -60,
+    duration:0.5,
+    scrollTrigger:{
+        trigger: "#hghg",
+        scroller:"body",
+        start:"top 50%",
+        end:"top 45%",
+        scrub:3
+    }
+})
